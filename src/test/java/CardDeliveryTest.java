@@ -21,7 +21,7 @@ public class CardDeliveryTest {
     }
 
     @Test
-    void shouldSubmitRequestWithList() {
+    void shouldSubmigtRequestWithList() {
         open("http://localhost:9999");
         SelenideElement form = $(".form");
         form.$("[data-test-id=city] input").setValue("Че");
